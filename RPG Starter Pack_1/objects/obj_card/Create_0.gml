@@ -2,7 +2,7 @@ selected = false;
 sprite_index = sprite;
 
 curve_struct = animcurve_get(anim_card_selected);
-curve_channel = animcurve_get_channel(curve_struct, "scale");
+scale_channel = animcurve_get_channel(curve_struct, "scale");
 
 curve_position = 0;
 curve_speed = 0.03;
