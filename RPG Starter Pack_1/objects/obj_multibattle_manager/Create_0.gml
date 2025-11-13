@@ -1,6 +1,6 @@
 player_turn = true;
 
-//enemey_positions = [// x and y coordinates for the enemies [189, 104], [242,89], [283, 105]];
+enemy_positions = [[189, 104], [242,89], [283, 105]];
 
 enemy_list = array_create(0);
 enemy_index = 0;

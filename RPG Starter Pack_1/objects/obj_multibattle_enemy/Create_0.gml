@@ -27,7 +27,7 @@ take_damage = function(amt) {
 
 attack = function() {
     obj_multibattle_player.take_damage(damage);
-    audio_play_sound(snd_enemy_hit, 10, false);
+    audio_play_sound(Enemy_Attack_sound, 10, false);
     curve_position = 0;
     alarm[1] = 1;
 }

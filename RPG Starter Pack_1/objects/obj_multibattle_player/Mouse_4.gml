@@ -13,6 +13,7 @@ if (obj_multibattle_manager.player_turn) {
         player_attack(_selected_enemy, data.damage);
         _selected_card.selected = false;
         if (instance_exists(_selected_enemy)) _selected_enemy.selected = false;
-            obj__multibattle_manager.enemies_turn();
+            obj_multibattle_manager.enemies_turn();
     }
 }
+

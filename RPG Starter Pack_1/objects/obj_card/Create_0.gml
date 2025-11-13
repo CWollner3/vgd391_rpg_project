@@ -7,3 +7,4 @@ scale_channel = animcurve_get_channel(curve_struct, "scale");
 curve_position = 0;
 curve_speed = 0.03;
 scale = 1;
+card = undefined;

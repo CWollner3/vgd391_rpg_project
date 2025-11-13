@@ -10,3 +10,4 @@ if (obj_multibattle_manager.player_turn) {
 }
 
 
+

@@ -10,3 +10,4 @@ if (instance_exists(obj_player)) {
         xp_require: obj_player.xp_require
     }
 }
+

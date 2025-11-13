@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"card_definitions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"card_definitions",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

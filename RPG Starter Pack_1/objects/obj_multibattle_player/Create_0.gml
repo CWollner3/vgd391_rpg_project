@@ -10,15 +10,16 @@ data = obj_multibattle_switcher.player_data;
 take_damage = function(amount) {
     data.hp -= amount;
     if(data.hp <= 0) {
-        audio_play_sound(snd_player_unalived, 10, false);
+        audio_play_sound(game_over, 10, false);
         scale = 1;
         alarm[1] = room_speed / 4;
     }
 }
 
+// Modify
 function player_attack (target, damage) {
     if (instance_exists(target)) {
-        audio_play_sound(snd_player_hit, 10, false);
+        audio_play_sound(Player_attack_sound, 10, false);
         curve_position = 0;
         alarm[0] = 1;
         target.selected = false;

@@ -17,7 +17,7 @@ if (instance_exists(obj_room_switcher)) {
     hp_total = obj_room_switcher.player_data.hp_total;
     damage = obj_room_switcher.player_data.damage;
     charge = obj_room_switcher.player_data.charge;
-    max_charge = obj_room_switcher.player_data.max_charge;
+    //max_charge = obj_room_switcher.player_data.max_charge;
     level = obj_room_switcher.player_data.level;
     xp = obj_room_switcher.player_data.xp;
     xp_require = obj_room_switcher.player_data.xp_require;
