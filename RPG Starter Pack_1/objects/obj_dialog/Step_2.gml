@@ -12,9 +12,9 @@ else if (keyboard_check_pressed(input_key)) {
         if (next_room) {
             instance_create_depth(0,0,0,obj_room_switcher)
             room_goto_next();
+        }
     }
     else {
         current_char = 0;
     } 
-    }
 }

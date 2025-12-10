@@ -4,6 +4,7 @@ damage = 0;
 dungeon_id = 0;
 xp_value = 0;
 selected = false; 
+drained = false;
 
 curve_struct = animcurve_get(anim_enemy_selected);
 scale_channel = animcurve_get_channel(curve_struct, "scale");

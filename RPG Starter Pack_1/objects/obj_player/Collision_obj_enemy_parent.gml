@@ -1,5 +1,6 @@
-if (instance_exists(obj_multibattle_switcher)) exit; 
-    var _switcher = instance_create_depth(0,0,0, obj_multibattle_switcher);
+if (instance_exists(obj_multibattle_switcher)) exit;
+if (instance_exists(obj_dialog)) exit;
+var _switcher = instance_create_depth(0,0,0, obj_multibattle_switcher);
 _switcher.player_data = self;
 _switcher.original_room = room;
 _switcher.battle_enemies = [];

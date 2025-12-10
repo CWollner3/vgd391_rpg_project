@@ -9,4 +9,5 @@ if (room != rm_multibattle) {
         obj_player.add_xp(accumulated_xp);
     }
     alarm[0] = 150;
+    
 }

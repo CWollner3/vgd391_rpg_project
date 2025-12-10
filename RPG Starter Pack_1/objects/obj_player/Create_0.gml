@@ -2,15 +2,19 @@ move_speed = 1;
 
 tilemap = layer_tilemap_get_id("Tiles_Col");
 
-hp = 10;
+hp = 30;
 hp_total = hp;
-damage = 1;
+damage = 10;
 charge = 0;
 
 level = 1;
 xp = 0;
 xp_require = 100;
+
+health_recovery = 10;
+
 walking = false;
+
 
 if (instance_exists(obj_room_switcher)) {
     hp = obj_room_switcher.player_data.hp;
@@ -35,6 +39,10 @@ function add_xp(_xp_to_add) {
         hp_total += 5;
         hp = hp_total;
         damage += 0.8;
+        
+        health_recovery += 10;
+        
+        //spr_card_heal = +10; // Trying to make health card add plus 10 health everytime you level up
         audio_play_sound(Level_Up_sound, 0, false);
         create_dialog([
         {

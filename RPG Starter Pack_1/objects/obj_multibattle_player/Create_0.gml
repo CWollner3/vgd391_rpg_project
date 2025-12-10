@@ -5,6 +5,7 @@ curve_position = 0;
 curve_speed = 0.03;
 scale = 1;
 
+
 data = obj_multibattle_switcher.player_data;
 
 take_damage = function(amount) {
