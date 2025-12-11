@@ -14,12 +14,16 @@ card_heavy_strike = create_card(
     [undefined, 20, 0]
 );
 
-card_heal = create_card(
+card_heal = create_card(  
     "Heal",
     spr_card_heal,
     "Heal the player.",
     card_effect_heal,
-    [undefined, 0, 10] // Something is wrong with this line of code when you try and run the game
+    [undefined, 0, 10] 
+    // Throwing an error anytime card is used.
+    // Needs to add plus 10 HP everytime the player levels up. When using the 
+    // card should start with 10 HP given. Then after the player levels up should be 
+    // 20 HP when the card is used 
 );
 
 card_attack_heal = create_card (
@@ -30,7 +34,7 @@ card_attack_heal = create_card (
     [undefined, 10, 10]
 )
 
-card_drain_spell = create_card (    //should be fixed
+card_drain_spell = create_card (    //add debug message to make sure its actully draining over time
     "Damage over time",
     spr_card_drain_spell,
     "Drains enemy health",
@@ -42,7 +46,7 @@ deck = array_create(0);
 array_push(deck, card_strike);
 array_push(deck, card_strike);
 array_push(deck, card_strike);
-array_push(deck, card_strike);
+array_push(deck, card_heal);
 array_push(deck, card_heal);
 
 

@@ -14,8 +14,8 @@ function card_effect_double_damage (_params) {
 
 function card_effect_heal (_params) {
     if (object_exists(obj_multibattle_player)) {
-        show_debug_message("Healing for {0} hp", obj_player.health_recovery);
-        obj_multibattle_player.data.hp += obj_player.health_recovery;  // Possibly make this card be able to go up by 5 everytime the player levels up
+        //show_debug_message("Healing for {0} hp", obj_player.health_recovery);
+        obj_multibattle_player.data.hp += obj_player.health_recovery;
         if (obj_multibattle_player.data.hp > obj_multibattle_player.data.hp_total) {
             obj_multibattle_player.data.hp = obj_multibattle_player.data.hp_total;
         }

@@ -6,6 +6,6 @@ event_inherited();
 
 add_cards = function ()
 {
-    array_push(global.deck, global.card_heavy_strike);
-    array_push(global.deck, global.card_heavy_strike);
+    array_push(global.deck, global.card_attack_heal);
+    array_push(global.deck, global.card_attack_heal);
 }

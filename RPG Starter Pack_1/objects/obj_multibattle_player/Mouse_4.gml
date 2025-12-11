@@ -22,7 +22,7 @@ if (obj_multibattle_manager.player_turn) {
         _selected_enemy.scale = 1;
         //_selected_enemy.take_damage(data.damage); 
     }
-            _selected_card.card.effect([_selected_enemy, data.damage]);
+            _selected_card.card.effect([_selected_enemy, data.damage]); //error here
     
     if (object_exists(obj_deck)) {
         array_push(obj_deck.discard, _selected_card.card);
