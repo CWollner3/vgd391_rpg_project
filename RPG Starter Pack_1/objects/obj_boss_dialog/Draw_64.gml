@@ -1,7 +1,7 @@
 var _dx = 0;
-var _dy = gui_h * 0.7;
+var _dy = 0;
 var _boxw = gui_w;
-var _boxh = gui_h - _dy;
+var _boxh = gui_h * 0.65;
 
 draw_sprite_stretched(spr_box, 0, _dx, _dy, _boxw, _boxh);
 

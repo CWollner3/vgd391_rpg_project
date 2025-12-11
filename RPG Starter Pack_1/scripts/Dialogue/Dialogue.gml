@@ -1,16 +1,21 @@
 function create_dialog(_messages){
-    if (instance_exists(obj_dialog)) return;
-        
+    if (instance_exists(obj_dialog)) return noone;
+
     var _inst = instance_create_depth(0, 0, 0, obj_dialog);
     _inst.messages = _messages;
     _inst.current_message = 0;
+
+    return _inst;   // ← VERY IMPORTANT
 }
+
 function create_boss_dialog(_messages){
-    if (instance_exists(obj_boss_dialog)) return;
-        
+    if (instance_exists(obj_boss_dialog)) return noone;
+
     var _inst = instance_create_depth(0, 0, 0, obj_boss_dialog);
     _inst.messages = _messages;
     _inst.current_message = 0;
+
+    return _inst;   // ← VERY IMPORTANT
 }
 
 char_colors = {
