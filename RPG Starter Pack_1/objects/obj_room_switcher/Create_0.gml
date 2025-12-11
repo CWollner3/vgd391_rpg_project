@@ -2,6 +2,7 @@ if (instance_exists(obj_player)) {
     player_data = {
         hp: obj_player.hp,
         hp_total: obj_player.hp_total,
+        health_recovery: obj_player.health_recovery,
         damage: obj_player.damage, 
         charge: obj_player.charge,
         //max_charge: obj_player.max_charge,

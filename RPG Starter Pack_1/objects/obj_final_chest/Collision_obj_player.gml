@@ -1,6 +1,7 @@
 if (!card_collected) {
     card_collected = true;
-    array_push(global.deck, global.card_heavy_strike);
+    array_push(global.deck, global.card_drain_spell);
+    array_push(global.deck, global.card_drain_spell);
     shuffle_cards(global.deck);
 show_debug_message("cards in deck: {0}", array_length(global.deck));
 audio_play_sound(chest_sound, 0, false);
@@ -11,7 +12,7 @@ create_dialog([
     } 
     ]);
 }
-if (instance_exists(obj_multibattle_switcher)) exit; 
+//if (instance_exists(obj_multibattle_switcher)) exit; 
 var _switcher = instance_create_depth(0,0,0, obj_multibattle_switcher);
 _switcher.player_data = self;
 _switcher.original_room = room;
@@ -31,4 +32,4 @@ for (var i = 0; i < array_length(_nearby); i++) {
     array_push(_switcher.battle_enemies, _enemy_data);
 }
 
-room_goto(rm_multibattle);
+room_goto(Boss);

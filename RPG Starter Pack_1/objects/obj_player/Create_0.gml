@@ -24,7 +24,9 @@ if (instance_exists(obj_room_switcher)) {
     //max_charge = obj_room_switcher.player_data.max_charge;
     level = obj_room_switcher.player_data.level;
     xp = obj_room_switcher.player_data.xp;
+    
     xp_require = obj_room_switcher.player_data.xp_require;
+    health_recovery = obj_room_switcher.player_data.health_recovery;
     instance_destroy(obj_room_switcher);
     
 }

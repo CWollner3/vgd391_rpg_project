@@ -96,6 +96,8 @@
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"main_menu_music","path":"objects/main_menu_music/main_menu_music.yy",},},
     {"id":{"name":"obj_bgm","path":"objects/obj_bgm/obj_bgm.yy",},},
+    {"id":{"name":"obj_boss_dialog","path":"objects/obj_boss_dialog/obj_boss_dialog.yy",},},
+    {"id":{"name":"obj_boss_manager","path":"objects/obj_boss_manager/obj_boss_manager.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"obj_card_right_click","path":"objects/obj_card_right_click/obj_card_right_click.yy",},},
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
